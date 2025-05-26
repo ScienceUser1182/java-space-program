@@ -21,5 +21,3 @@ It uses a brute-force decryption tool specifically designed to crack a Caesar ci
 it uses two different shift keys, one for characters at even positions and another for characters at odd positions within the ciphertext.
 It tries every possible combination of two Caesar cipher keys (one for even-indexed characters and one for odd-indexed characters) 
 and checks if the resulting decryption starts with "Gr". It's adjustable, which is what makes it so powerful...
-
-According to TryHackMe.com, I've done a lot more complex cracking methods than this, including RSA and MD5 cracking tools on Hashcat & Hydra using $salt, various wordlists, and known chars
